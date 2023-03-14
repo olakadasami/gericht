@@ -1,4 +1,16 @@
 import './globals.css'
+import { Open_Sans, Cormorant_Upright } from 'next/font/google'
+
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  variable: '--openSans'
+})
+
+const comorant = Cormorant_Upright({
+  subsets: ['latin'],
+  variable: '--comorant',
+  weight: ['400', '600', '700']
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html className={`${openSans.variable} ${comorant.variable}`} lang="en">
       <body>{children}</body>
     </html>
   )
