@@ -1,7 +1,7 @@
-import Image from "next/image"
 import Button from "../Button/Button"
 import Heading from "../Heading/Heading"
 import bgImage from "../../assets/hero.png"
+import ImageWrapper from "../utils/ImageWrapper"
 
 const Hero = () => {
     return (
@@ -24,8 +24,8 @@ const Hero = () => {
                     />
                 </div>
             </div>
-            <div className="relative w-1/2">
-                <Image src={bgImage} fill alt="hero Image" />
+            <div className=" w-1/2">
+                <ImageWrapper imageUrl={bgImage} alt="hero Image" />
             </div>
         </header>
     )
