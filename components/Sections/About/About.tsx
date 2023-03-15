@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import bgImage from '../../assets/bg-about.png'
-import spoon from '../../assets/spoon.png'
-import Button from '../Button/Button'
+import bgImage from '../../../assets/bg-about.png'
+import spoon from '../../../assets/spoon.png'
+import Button from '../../Button/Button'
 
 const About = () => {
     const style = {

@@ -1,4 +1,4 @@
-import Heading from "../Heading/Heading"
+import Heading from "../../Heading/Heading"
 
 const Menu = () => {
     return (
