@@ -2,12 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
 
-  /* font-family: 'Sacramento', cursive;  */
-  font-family: 'Open Sans', sans-serif;
-}
-
-.comorant {
-  font-family: 'Cormorant Upright', serif;
-}
+/* font-family: 'Sacramento', cursive;  */

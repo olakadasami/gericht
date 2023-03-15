@@ -12,7 +12,8 @@ module.exports = {
     extend: {
       fontFamily: {
         "comorant": "var(--comorant)",
-        "openSans": "var(--openSans)"
+        "openSans": "var(--openSans)",
+        "sacramento": "var(--sacramento)"
       },
       colors: {
         "primary-light": "#aaa",

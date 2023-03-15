@@ -1,9 +1,15 @@
 import './globals.css'
-import { Open_Sans, Cormorant_Upright } from 'next/font/google'
+import { Open_Sans, Cormorant_Upright, Sacramento } from 'next/font/google'
 
 const openSans = Open_Sans({
   subsets: ['latin'],
   variable: '--openSans'
+})
+
+const sacramento = Sacramento({
+  subsets: ['latin'],
+  variable: '--sacramento',
+  weight: '400'
 })
 
 const comorant = Cormorant_Upright({
@@ -23,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html className={`${openSans.variable} ${comorant.variable}`} lang="en">
+    <html className={`${openSans.variable} ${sacramento.variable} ${comorant.variable}`} lang="en">
       <body>{children}</body>
     </html>
   )
