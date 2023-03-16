@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 const Newsletter = () => {
     const [email, setEmail] = useState<string>("")
 
-    const onSubmitHandler = (e) => {
+    const onSubmitHandler = (e: React.SyntheticEvent) => {
         e.preventDefault()
         console.log(email)
     }
