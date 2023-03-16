@@ -21,7 +21,8 @@ module.exports = {
         "secondary-light": "#FAFAFA",
         "secondary-dark": "#1a1a18",
         "color-white": "#fff",
-        "color-accent": "#DCCA87"
+        "color-accent": "#DCCA87",
+        "color-accent-2": "#F5EFDB"
       }
     },
   },

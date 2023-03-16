@@ -5,7 +5,7 @@ import ImageWrapper from "../utils/ImageWrapper"
 
 const Hero = () => {
     return (
-        <header className="flex gap-20 h-[95vh] px-40 py-20">
+        <header className="h-screen flex gap-20 px-40 py-20">
             <div className="w-1/2">
                 <Heading
                     heading="The Key To Fine Dining"

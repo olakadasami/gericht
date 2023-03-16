@@ -1,13 +1,17 @@
 interface Props {
-    Comp1: React.FC
-    Comp2: React.FC
+    comp1: React.FC
+    comp2: JSX.Element
 }
 
-const TwoColumn = ({ Comp1, Comp2 }: Props) => {
+const TwoColumn = ({ comp1: Component1, comp2: Component2 }: Props) => {
     return (
         <div className="flex gap-40 items-center">
-            <Comp1 />
-            <Comp2 />
+            <div className="w-1/2">
+                <Component1 />
+            </div>
+            <div className="w-1/2">
+                {Component2}
+            </div>
         </div>
     )
 }
